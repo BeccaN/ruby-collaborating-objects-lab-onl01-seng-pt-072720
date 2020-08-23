@@ -21,4 +21,8 @@ class Song
     @@all 
   end 
   
+  def new_by_filename(song)
+    Song.new = song 
+  end 
+  
 end   
