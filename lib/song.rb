@@ -23,6 +23,7 @@ class Song
   
   def new_by_filename(song)
     Song.new = song 
+    puts song 
   end 
   
 end   
